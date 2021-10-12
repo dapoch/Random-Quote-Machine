@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+.App {
+  
+  #titulo{
+    
+    font-family: 'Bebas Neue', cursive;
+    text-shadow: 60px 20px rgb(88, 88, 88);
+    margin-top: -4%;
+    
+  }
+  #quote-box{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    padding: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    box-shadow: 60px 16px rgb(88, 88, 88);
+
+    #text{
+      
+      font-family: 'Anton', sans-serif;
+
+     }
+    #author{
+      text-align: end;
+      font-size: 17px;
+      font-family: 'Anton', sans-serif;
+    }
+    #tweet-quote{
+      float: left;
+      padding-left: 5%;
+    }
+    #new-quote{
+      float: right;
+      font-family: "Anton"; 
+      font-size: 5px;
+      color: rgb(255, 255, 255);
+      border-radius: 10px;
+      padding: 7px;
+      
+    }
+  }
+  .App-header {
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+    
+  }
+}
+
+
